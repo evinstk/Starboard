@@ -13,10 +13,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SDL_Initialization.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="TestState.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Clock.h" />
+    <ClInclude Include="State.h" />
     <ClInclude Include="SDL_Initialization.h" />
+    <ClInclude Include="TestState.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D1FD4BDB-5EAC-4E35-843F-A7E4030ABA49}</ProjectGuid>

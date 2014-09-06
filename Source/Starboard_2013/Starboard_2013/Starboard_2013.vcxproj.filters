@@ -21,12 +21,24 @@
     <ClCompile Include="SDL_Initialization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SDL_Initialization.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
