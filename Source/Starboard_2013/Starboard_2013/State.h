@@ -39,7 +39,7 @@ namespace temm
 	class IStateListener
 	{
 	public:
-		~IStateListener() {}
+		virtual ~IStateListener() {}
 		virtual void VListen(const StateBroadcast& message) = 0;
 	};
 
@@ -47,7 +47,7 @@ namespace temm
 	{
 	public:
 		State();
-		~State() {}
+		virtual ~State() {}
 
 		virtual bool VProcessInput() = 0;
 		virtual bool VUpdate(Uint32 dt) = 0;
