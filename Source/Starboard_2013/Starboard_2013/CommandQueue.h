@@ -6,18 +6,18 @@
 
 namespace temm
 {
-	class ICommand;
+	struct Command;
 
 	class CommandQueue
 	{
 	public:
 		CommandQueue();
 
-		void Insert(std::shared_ptr<ICommand> command);
-		std::shared_ptr<ICommand> Pop();
+		void Insert(std::shared_ptr<Command> command);
+		std::shared_ptr<Command> Pop();
 
 	private:
-		std::queue<std::shared_ptr<ICommand>> m_Queue;
+		std::queue<std::shared_ptr<Command>> m_Queue;
 	};
 
 }
